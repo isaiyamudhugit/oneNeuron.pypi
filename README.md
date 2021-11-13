@@ -2,6 +2,18 @@
 oneNeuron.pypi
 
 
+## how to use
+
+```python
+from oneNeuron.perceptron import Perceptron
+
+## get X and y and then use below commands
+
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+
+```
+
 # reference -
 [official python doc]  (https://packaging.python.org/tutorials/packaging-projects/)
 
